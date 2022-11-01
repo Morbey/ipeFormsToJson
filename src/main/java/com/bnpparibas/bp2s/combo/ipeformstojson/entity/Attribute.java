@@ -12,6 +12,7 @@ import lombok.Setter;
 public class Attribute implements Serializable {
 
   public Attribute() {
+    System.out.println("entered on Attribute");
   }
 
   public Attribute(String id, String ipeName, String type, Integer maxSize) {
